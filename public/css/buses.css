@@ -1,0 +1,74 @@
+.available-buses-main {
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-top: 6rem;
+    flex: 1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.message {
+    text-align: center;
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.no-buses-message {
+    text-align: center;
+    font-weight: bold;
+}
+
+.buses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-header {
+    background-color: #ccc;
+    color: black;
+}
+
+.table-header th {
+    padding: 20px;
+}
+
+.table-row {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table-row td {
+    padding: 20px;
+    text-align: center;
+}
+
+.bus-name,
+.bus-seats,
+.bus-price,
+.bus-date,
+.bus-time {
+    color: #212529;
+}
+.btn {
+    background-color: none;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
